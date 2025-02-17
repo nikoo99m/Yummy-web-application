@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>🍽 Cooking Recipes</h1>
+        <nav>
+            <a href="index.html">🏠 Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>🔍 Search Recipes</h2>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for recipes..." />
+            <select id="searchType">
+                <option value="title">Title</option>
+                <option value="ingredient">Ingredient</option>
+                <option value="cooking-time">Max Cooking Time (mins)</option>
+                <option value="type">Food Type</option>
+            </select>
+            <button id="searchButton" onclick="searchRecipes()">🔎 Search</button>
+        </div>
+
+        <h2>🍽 All Recipes</h2>
+        <ul id="recipe-list">
+            <p>Loading recipes...</p>
+        </ul>
+        <div class="pagination">
+            <button id="prevPage" onclick="changePage(-1)">⬅️ Previous</button>
+            <span id="pageNumber">Page 1</span>
+            <button id="nextPage" onclick="changePage(1)">Next ➡️</button>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetchRecipes();
+        });
+    </script>
+
+</body>
