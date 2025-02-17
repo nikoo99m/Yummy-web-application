@@ -2,7 +2,7 @@
 
 [Yummy Web App](https://yummy-frontend-production.up.railway.app/) 🚀
 
-Yummy is a vibrant and user-friendly web application that allows users to explore, filter, and discover a variety of cuisines, including special Iranian dishes and fast food. The application features dynamic recipe filtering by cuisine type, cooking time, and dietary preferences.
+Yummy is a vibrant and user-friendly web application that allows users to explore, filter, and discover a variety of cuisines, including special Iranian dishes and fast food. The application features dynamic recipe filtering by cuisine type, cooking time, ingredients and title.
 
 ## Features
 
@@ -14,7 +14,7 @@ Yummy is a vibrant and user-friendly web application that allows users to explor
 
 - **Backend:** Built using Spring Boot for RESTful API development.
 - **Database:** PostgreSQL is used for data storage.
-- **Frontend:** Currently under development, designed to be dynamic and user-interactive.
+- **Frontend:** Built with HTML, CSS, and JavaScript, featuring a responsive, user-friendly UI with intuitive navigation, dynamic filtering, and seamless interactions for an enhanced user experience (UX).
 - **Docker:** Containers for consistent application runtime.
 - **Maven:** Dependency management and project build tool.
 
