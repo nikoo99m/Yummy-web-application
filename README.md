@@ -20,6 +20,8 @@ Yummy is a vibrant and user-friendly web application that allows users to explor
 
 ## Setup Instructions
 
+Access Yummy here [Yummy Web App](https://yummy-frontend-production.up.railway.app/)  or follow these steps:
+
 1. **Clone the Repository:**
    
    ```bash
@@ -33,4 +35,4 @@ Yummy is a vibrant and user-friendly web application that allows users to explor
    
 3. **Access the Application:**
 - Backend runs on http://localhost:8080.
-- API endpoints and frontend to be integrated soon.
+
